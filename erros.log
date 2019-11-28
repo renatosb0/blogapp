@@ -1,34 +1,33 @@
-2019-11-28T02:35:25.637563+00:00 app[api]: Release v2 created by user sb.renato@gmail.com
-2019-11-28T02:35:25.637563+00:00 app[api]: Enable Logplex by user sb.renato@gmail.com
-2019-11-28T02:35:23.692430+00:00 app[api]: Release v1 created by user sb.renato@gmail.com
-2019-11-28T02:35:23.692430+00:00 app[api]: Initial release by user sb.renato@gmail.com
-2019-11-28T02:40:17.000000+00:00 app[api]: Build started by user sb.renato@gmail.com
-2019-11-28T02:40:36.006614+00:00 app[api]: Scaled to web@1:Free by user sb.renato@gmail.com
-2019-11-28T02:40:35.991267+00:00 app[api]: Deploy 0129d6dd by user sb.renato@gmail.com
-2019-11-28T02:40:35.991267+00:00 app[api]: Release v3 created by user sb.renato@gmail.com
-2019-11-28T02:40:36.000000+00:00 app[api]: Build succeeded
-2019-11-28T02:40:38.760702+00:00 heroku[web.1]: Starting process with command `npm start`
-2019-11-28T02:40:40.425352+00:00 app[web.1]: 
-2019-11-28T02:40:40.425371+00:00 app[web.1]: > blogapp@1.0.0 start /app
-2019-11-28T02:40:40.425375+00:00 app[web.1]: > node app.js
-2019-11-28T02:40:40.425377+00:00 app[web.1]: 
-2019-11-28T02:40:40.915654+00:00 app[web.1]: conectado na web
-2019-11-28T02:40:40.916683+00:00 app[web.1]: Warning: connect.session() MemoryStore is not
-2019-11-28T02:40:40.916687+00:00 app[web.1]: designed for a production environment, as it will leak
-2019-11-28T02:40:40.916690+00:00 app[web.1]: memory, and will not scale past a single process.
-2019-11-28T02:40:40.934444+00:00 app[web.1]: (node:23) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
-2019-11-28T02:40:40.934817+00:00 app[web.1]: Servidor rodando
-2019-11-28T02:40:40.964672+00:00 app[web.1]: (node:23) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
-2019-11-28T02:40:41.060846+00:00 app[web.1]: Erro ao conectar MongoNetworkError: failed to connect to server [cluster0-shard-00-01-jnbzm.mongodb.net:27017] on first connect [MongoNetworkError: connection 4 to cluster0-shard-00-01-jnbzm.mongodb.net:27017 closed
-2019-11-28T02:40:41.060851+00:00 app[web.1]: at TLSSocket.<anonymous> (/app/node_modules/mongodb/lib/core/connection/connection.js:356:9)
-2019-11-28T02:40:41.060854+00:00 app[web.1]: at Object.onceWrapper (events.js:300:26)
-2019-11-28T02:40:41.060858+00:00 app[web.1]: at TLSSocket.emit (events.js:210:5)
-2019-11-28T02:40:41.060860+00:00 app[web.1]: at net.js:659:12
-2019-11-28T02:40:41.060862+00:00 app[web.1]: at TCP.done (_tls_wrap.js:481:7) {
-2019-11-28T02:40:41.060864+00:00 app[web.1]: name: 'MongoNetworkError',
-2019-11-28T02:40:41.060866+00:00 app[web.1]: errorLabels: [Array],
-2019-11-28T02:40:41.060868+00:00 app[web.1]: [Symbol(mongoErrorContextSymbol)]: {}
-2019-11-28T02:40:41.060870+00:00 app[web.1]: }]
-2019-11-28T02:40:41.490530+00:00 heroku[web.1]: State changed from starting to up
-2019-11-28T02:41:30.165182+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/" host=radiant-retreat-96049.herokuapp.com request_id=c555eb9f-4a15-4702-9238-9cc133446008 fwd="179.208.156.132" dyno=web.1 connect=0ms service=30002ms status=503 bytes=0 protocol=https
-2019-11-28T02:41:34.320841+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=radiant-retreat-96049.herokuapp.com request_id=13654cd3-f942-4b72-9c53-6ae38c64e0b6 fwd="179.208.156.132" dyno=web.1 connect=0ms service=12ms status=404 bytes=520 protocol=https
+2019-11-28T02:53:46.013553+00:00 app[api]: Enable Logplex by user sb.renato@gmail.com
+2019-11-28T02:53:45.887788+00:00 app[api]: Initial release by user sb.renato@gmail.com
+2019-11-28T02:53:46.013553+00:00 app[api]: Release v2 created by user sb.renato@gmail.com
+2019-11-28T02:53:45.887788+00:00 app[api]: Release v1 created by user sb.renato@gmail.com
+2019-11-28T02:56:20.000000+00:00 app[api]: Build started by user sb.renato@gmail.com
+2019-11-28T02:56:38.855892+00:00 app[api]: Deploy 7282067b by user sb.renato@gmail.com
+2019-11-28T02:56:38.874577+00:00 app[api]: Scaled to web@1:Free by user sb.renato@gmail.com
+2019-11-28T02:56:38.855892+00:00 app[api]: Release v3 created by user sb.renato@gmail.com
+2019-11-28T02:56:39.000000+00:00 app[api]: Build succeeded
+2019-11-28T02:56:41.971173+00:00 heroku[web.1]: Starting process with command `npm start`
+2019-11-28T02:56:44.560806+00:00 app[web.1]: 
+2019-11-28T02:56:44.560834+00:00 app[web.1]: > blogapp@1.0.0 start /app
+2019-11-28T02:56:44.560837+00:00 app[web.1]: > node app.js
+2019-11-28T02:56:44.560839+00:00 app[web.1]: 
+2019-11-28T02:56:45.104097+00:00 app[web.1]: conectado na web
+2019-11-28T02:56:45.104978+00:00 app[web.1]: Warning: connect.session() MemoryStore is not
+2019-11-28T02:56:45.104980+00:00 app[web.1]: designed for a production environment, as it will leak
+2019-11-28T02:56:45.104982+00:00 app[web.1]: memory, and will not scale past a single process.
+2019-11-28T02:56:45.117551+00:00 app[web.1]: Servidor rodando
+2019-11-28T02:56:45.167362+00:00 app[web.1]: (node:23) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+2019-11-28T02:56:45.308081+00:00 app[web.1]: Erro ao conectar MongoNetworkError: failed to connect to server [cluster0-shard-00-02-jnbzm.mongodb.net:27017] on first connect [MongoNetworkError: connection 5 to cluster0-shard-00-02-jnbzm.mongodb.net:27017 closed
+2019-11-28T02:56:45.308085+00:00 app[web.1]: at TLSSocket.<anonymous> (/app/node_modules/mongodb/lib/core/connection/connection.js:356:9)
+2019-11-28T02:56:45.308091+00:00 app[web.1]: at Object.onceWrapper (events.js:300:26)
+2019-11-28T02:56:45.308094+00:00 app[web.1]: at TLSSocket.emit (events.js:210:5)
+2019-11-28T02:56:45.308096+00:00 app[web.1]: at net.js:659:12
+2019-11-28T02:56:45.308099+00:00 app[web.1]: at TCP.done (_tls_wrap.js:481:7) {
+2019-11-28T02:56:45.308101+00:00 app[web.1]: name: 'MongoNetworkError',
+2019-11-28T02:56:45.308103+00:00 app[web.1]: errorLabels: [Array],
+2019-11-28T02:56:45.308105+00:00 app[web.1]: [Symbol(mongoErrorContextSymbol)]: {}
+2019-11-28T02:56:45.308107+00:00 app[web.1]: }]
+2019-11-28T02:56:45.728805+00:00 heroku[web.1]: State changed from starting to up
+2019-11-28T02:57:43.400549+00:00 heroku[router]: at=error code=H12 desc="Request timeout" method=GET path="/" host=thawing-badlands-60136.herokuapp.com request_id=615c635e-9fcb-4a59-83ae-32c0daa68b56 fwd="179.208.156.132" dyno=web.1 connect=0ms service=30001ms status=503 bytes=0 protocol=https
+2019-11-28T02:57:44.281565+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=thawing-badlands-60136.herokuapp.com request_id=e8fa3b37-8a13-44a2-85ea-5e7d619c2c80 fwd="179.208.156.132" dyno=web.1 connect=0ms service=10ms status=404 bytes=524 protocol=https
