@@ -4,8 +4,8 @@ if(process.env.NODE_ENV=="production"){
 }else{
     var ambiente = process.env.NODE_ENV
     console.log("conectado em " . ambiente)
-    module.exports={mongoURI: "mongodb://localhost/blogapp"}
-//    module.exports={mongoURI: "mongodb+srv://renatosb:renato@cluster0-jnbzm.mongodb.net/test?retryWrites=true&w=majority"}
+//    module.exports={mongoURI: "mongodb://localhost/blogapp"}
+    module.exports={mongoURI: "mongodb+srv://renatosb:renato@cluster0-jnbzm.mongodb.net/test?retryWrites=true&w=majority"}
     
 }
 
