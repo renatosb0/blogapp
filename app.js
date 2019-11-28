@@ -50,7 +50,7 @@ const db = require("./config/db")
 
 // Mongoose
 mongoose.Promise=global.Promise;
-mongoose.connect(db.mongoURI,{ useNewUrlParser: true ,  useUnifiedTopology: true } ).then(() => {
+mongoose.connect(db.mongoURI,{ useNewUrlParser: true , reconnectTries: 30,  reconnectInterval: 500,  useUnifiedTopology: true } ).then(() => {
     console.log("Conectado ao mongo")
 }).catch((err)=>{
     console.log("Erro ao conectar "+err)
